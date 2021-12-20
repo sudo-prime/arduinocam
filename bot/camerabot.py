@@ -17,7 +17,6 @@ client = discord.Client()
 
 @client.event
 async def on_message(message):
-    # Ignore messages sent by beanbot.
     if message.author == client.user:
         return
 
